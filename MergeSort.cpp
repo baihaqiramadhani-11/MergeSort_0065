@@ -47,3 +47,8 @@ void mergeSort(int low, int high)
     // step 3 (rekursi)
     mergeSort(low, mid);
     mergeSort(mid + 1, high);
+
+     // step 4
+    int i = low;
+    int j = mid + 1;
+    int k = low;
